@@ -1,0 +1,106 @@
+.Container {
+    padding-top: 60px;
+    position: relative;
+    width: 1000px;
+    margin: 20px 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.FeedbackManager {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: green;
+    font-weight: 700;
+    color: white;
+
+}
+
+.Search {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    top: 0;
+    background-color: blueviolet;
+}
+
+.inputSearch {
+    padding-left: 5px;
+    width: 80%;
+    height: 80%;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.BtnSearch {
+    width: 20%;
+    background-color: blueviolet;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    border-radius: 0px 5px 5px 0px;
+}
+
+.ListComment {
+    padding: 20px;
+    width: 100%;
+    overflow: scroll;
+    height: 80vh;
+}
+
+.ItemComment {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.NameUser {
+    margin: 10px 0px;
+}
+
+.CommentText {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    min-height: 50px;
+    background-color: #ddd;
+}
+
+.UserName {
+    font-weight: 700;
+    font-size: 14px;
+    margin-right: 20px;
+}
+
+.CountStar {
+    color: rgb(173, 173, 95);
+    font-weight: 700;
+}
+
+.LinkSP {
+    cursor: pointer;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    text-decoration: underline;
+}

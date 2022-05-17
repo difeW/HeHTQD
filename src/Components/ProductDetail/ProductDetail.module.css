@@ -1,0 +1,337 @@
+.title {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: green;
+    font-weight: 700;
+    color: white;
+}
+
+.containner {
+    padding: 10px 200px;
+    width: 100%;
+    display: flex;
+}
+
+.containnerPicture {
+    flex: 1;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+}
+
+.containnerPicture1 {
+    flex: 1;
+    background-color: #eee;
+    display: flex;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+}
+
+.containerInfo {
+    flex: 1;
+}
+
+.Picture {
+    width: 180px;
+}
+
+.ProductName {
+    margin: 10px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.UnitPrice {
+    margin: 10px;
+    color: red;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.rate {
+    margin: 10px;
+    color: rgb(173, 173, 95);
+    font-weight: 700;
+
+}
+
+.rating {
+    color: #777;
+    font-size: 14px;
+}
+
+.ThongSoKiThuat {
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.ThongSoKiThuatTT {
+    width: 100%;
+    background-color: #bbb;
+    height: 45px;
+    border-radius: 5px 5px 0px 0px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.ThongSoKiThuatRowLe {
+    display: flex;
+    width: 100%;
+    background-color: #eee;
+    height: 45px;
+}
+
+.ThongSoKiThuatRowChan {
+    display: flex;
+    width: 100%;
+    background-color: #bbb;
+    height: 45px;
+}
+
+.ItemTT {
+    flex: 2;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ItemValue {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 3;
+    height: 45px;
+}
+
+.Feedback {
+    padding: 20px 200px;
+    width: 100%;
+
+}
+
+.ContainnerFeedback {
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.01);
+
+    padding: 20px;
+    width: 100%;
+    display: flex;
+}
+
+.ContainnerFeedbackItem {
+    height: 150px;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.ratebig {
+    font-size: 44px;
+    color: rgb(173, 173, 95);
+}
+
+.ratingbig {
+    font-size: 20px;
+    color: #777;
+}
+
+.itemStar {
+    display: flex;
+    margin: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.StarName {
+    font-size: 14px;
+    font-weight: 700;
+    color: rgb(173, 173, 95);
+}
+
+.StarNameView {
+    width: 100px;
+    font-size: 14px;
+}
+
+.StarNamePercent {
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 100px;
+    height: 10px;
+    background-color: red;
+    border-radius: 10px;
+}
+
+.StarCover {
+    position: relative;
+    margin: 5px;
+    width: 300px;
+    background-color: #777;
+    height: 10px;
+    border-radius: 10px;
+}
+
+.Comment {
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
+
+    border: 1px solid #bbb;
+    width: 100%;
+}
+
+.Comment1 {
+    width: 100%;
+}
+
+.TextComment {
+    font-weight: 700;
+    padding: 10px;
+    background-color: rebeccapurple;
+}
+
+.ListComment {
+    width: 100%;
+    padding: 0px 20px;
+}
+
+.ItemComment {
+    margin-bottom: 20px;
+}
+
+.NameUser {
+    margin: 10px 0px;
+}
+
+.CommentText {
+    width: 80%;
+    padding: 10px;
+    border-radius: 5px;
+    min-height: 50px;
+    background-color: #ddd;
+}
+
+.UserName {
+    font-weight: 700;
+    font-size: 14px;
+    margin-right: 20px;
+}
+
+.CountStar {
+    color: rgb(173, 173, 95);
+    font-weight: 700;
+}
+
+.btn {
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 14px;
+    background-color: #bbb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    margin-left: 40%;
+    margin-bottom: 10px;
+}
+
+.Modal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containnerModal {
+    overflow: scroll;
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 80%;
+    height: 80%;
+    background-color: white;
+}
+
+.ItemProduct {
+    cursor: pointer;
+    padding: 10px;
+    width: 235px;
+    height: 350px;
+    border-radius: 5px;
+    margin: 10px;
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.ProductName {
+    margin: 10px 0px;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.UnitPrice {
+    margin: 10px 0px;
+    font-weight: 700;
+    font-size: 16px;
+    color: red;
+}
+
+.rate {
+    margin: 10px 0px;
+    font-weight: 700;
+    font-size: 16px;
+    color: rgb(206, 206, 129);
+}
+
+.PictureS {
+    width: 170px;
+    height: 170px;
+    background-color: red;
+}
+
+.ProductSuggest {
+    padding: 20px 200px;
+}
+
+.ListSP {
+    display: flex;
+    overflow: scroll;
+}
+
+.inputUserName {
+    outline: none;
+    border: none;
+    background-color: green;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.inputUserName::placeholder {
+    color: #bbb;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.username {
+    position: absolute;
+    top: 15px;
+    right: 0px;
+}

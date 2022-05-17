@@ -1,0 +1,33 @@
+.Nav {
+    z-index: 1000;
+    position: fixed;
+    bottom: 20px;
+    right: 37%;
+    left: 37%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #bbb;
+    border-radius: 10px;
+}
+
+.Nav::before {
+    position: absolute;
+    content: '';
+    background-color: #777;
+    width: 4px;
+    height: 100%;
+    right: 50%;
+}
+
+.BtnNav {
+    cursor: pointer;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    border-radius: 10px;
+}
