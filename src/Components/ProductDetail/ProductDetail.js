@@ -50,6 +50,7 @@ const ProductDetail = () => {
     const { username, setUsername } = useContext(Context)
     const nav = useNavigate()
     const [modal, setModal] = useState(false)
+    const [modal2, setModal2] = useState(false)
     const location = useLocation()
     return (
         <div>
@@ -202,9 +203,17 @@ const ProductDetail = () => {
                     </div>
                 </div>
                 <div className={styles.Comment}>
-                    <div className={styles.TextComment}>
-                        COMMENTS
+                    <div className={styles.Control}>
+                        <div className={styles.TextComment}>
+                            COMMENTS
+                        </div>
+                        <div onClick={() => {
+                            setModal2(true)
+                        }} className={styles.btnComment}>
+                            Đánh giá
+                        </div>
                     </div>
+
                     <div className={styles.ListComment}>
                         <div className={styles.ItemComment}>
                             <div className={styles.NameUser}>
@@ -229,7 +238,7 @@ const ProductDetail = () => {
                         e.stopPropagation()
                     }} className={styles.containnerModal}>
                         <div className={styles.Comment1}>
-                            <div className={styles.TextComment}>
+                            <div className={styles.Control}>
                                 ALL COMMENTS
                             </div>
                             <div className={styles.ListComment}>
@@ -248,6 +257,29 @@ const ProductDetail = () => {
                     </div>
                 </div>
             }
+
+            {modal2 &&
+                <div onClick={(e) => {
+                    setModal2(false)
+                }} className={styles.Modal}>
+                    <div onClick={(e) => {
+                        e.stopPropagation()
+                    }} className={styles.containnerModal2}>
+                        <div className={styles.Comment1}>
+                            <div className={styles.Control}>
+                                THÊM BÌNH LUẬN
+                            </div>
+                            <input className={styles.Input} placeholder='Số sao' />
+                            <input className={styles.Input} placeholder='Bình luận' />
+                            <div className={styles.GroupBtn}>
+                                <div className={styles.btn2}>Xác nhận</div>
+                                <div className={styles.btn2}>Hủy</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+
         </div >
     )
 }

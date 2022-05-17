@@ -195,12 +195,33 @@
 
 .Comment1 {
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
-.TextComment {
+.Control {
     font-weight: 700;
     padding: 10px;
     background-color: rebeccapurple;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btnComment {
+    color: white;
+    font-weight: 700;
+    padding: 10px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+.TextComment {
+    color: white;
+    font-weight: 700;
+    padding: 10px;
 }
 
 .ListComment {
@@ -270,6 +291,16 @@
     background-color: white;
 }
 
+.containnerModal2 {
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 40%;
+    background-color: white;
+    display: flex;
+    padding-bottom: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
 .ItemProduct {
     cursor: pointer;
     padding: 10px;
@@ -334,4 +365,32 @@
     position: absolute;
     top: 15px;
     right: 0px;
+}
+
+.Input {
+    margin: 8px;
+    display: block;
+    width: 80%;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.btn2 {
+    cursor: pointer;
+    width: 90px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #bbb;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.GroupBtn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
